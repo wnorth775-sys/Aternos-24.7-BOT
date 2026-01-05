@@ -5,10 +5,10 @@ const io = require('socket.io')(http);
 const path = require('path');
 
 const mc = require('minecraft-protocol');
-const serverHost = 'DOOMS_DAY_REBORN.aternos.me';
-const serverPort = 59173;
-const botUsername = '247_Monitor';
-const reconnectInterval = 1 * 40 * 1000;
+const serverHost = 'RoguesHaven.aternos.me';
+const serverPort = 25917;
+const botUsername = 'RougesHaven';
+const reconnectInterval = 1 * 30 * 1000;
 
 let bot = null; // Initialize the bot as null
 
